@@ -1,0 +1,37 @@
+/* tao anh nen  */
+/* body {
+  background-image: url(./1.png);
+} */
+h1,
+p {
+  /* mau chu  */
+  color: blueviolet;
+  /* kieu chu  */
+  font-style: italic;
+  /* font chu */
+  font-family: "Courier New", Courier, monospace;
+  /* chuyen viet hoa, viet thuong */
+  text-transform: uppercase;
+  /* can vi tri */
+  text-align: center;
+  /* co chu */
+  font-size: 18;
+}
+
+/* do mo cua chu */
+/* h3 {
+  opacity: 40%;
+} */
+
+/* xoa han chu va chuc nang di */
+h3 {
+  display: none;
+}
+
+input:checked ~ img {
+  /* neu muon bien mat khoi dao dien */
+  /* display: none; */
+
+  /* neu muon bien mat khoi dao dien nhung van chiem vi tri thi dung : */
+  visibility: hidden;
+}
